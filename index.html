@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rane Hospital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #003366;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    .card {
+      background: #f4f4f4;
+      margin: 10px 0;
+      padding: 15px;
+      border-left: 4px solid #004080;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rane Hospital</h1>
+    <p>100 Feet Bypass Road, Akluj | 02185 224545 | +91 89758 14545</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#services">Services</a>
+    <a href="#appointment">Appointment</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>Welcome to Rane Hospital</h2>
+    <p>We are committed to delivering quality healthcare services to the people of Akluj and surrounding areas with modern medical facilities, expert doctors, and patient-centered care.</p>
+  </section>
+
+  <section id="services">
+    <h2>Key Facilities and Services</h2>
+    <div class="card">
+      <h3>Diagnostic Services</h3>
+      <p>Digital X-ray, CT Scan, MRI, Pathology Lab</p>
+    </div>
+    <div class="card">
+      <h3>Emergency & Support Services</h3>
+      <p>Ambulance, 24x7 Emergency Care</p>
+    </div>
+    <div class="card">
+      <h3>Surgical Facilities</h3>
+      <p>Fully Equipped Operation Theatre (OT)</p>
+    </div>
+  </section>
+
+  <section id="departments">
+    <h2>Specialized Departments</h2>
+    <ul>
+      <li>General Medicine</li>
+      <li>Pediatrics</li>
+      <li>Gynecology & Obstetrics</li>
+      <li>Gastroscopy, Colonoscopy, Bronchoscopy</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Additional Amenities</h2>
+    <ul>
+      <li>Ample Parking Space</li>
+      <li>Digital Record Management</li>
+    </ul>
+  </section>
+
+  <section id="appointment">
+    <h2>Book an Appointment</h2>
+    <form>
+      <label>Name:<br><input type="text" name="name" required></label><br><br>
+      <label>Phone:<br><input type="tel" name="phone" required></label><br><br>
+      <label>Department:<br>
+        <select name="department">
+          <option>General Medicine</option>
+          <option>Pediatrics</option>
+          <option>Gynecology & Obstetrics</option>
+          <option>Endoscopy Services</option>
+        </select>
+      </label><br><br>
+      <label>Preferred Date:<br><input type="date" name="date" required></label><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 100 Feet Bypass Road, Akluj</p>
+    <p><strong>Phone:</strong> 02185 224545 | +91 89758 14545</p>
+    <p><strong>Email:</strong> (Add email if any)</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rane Hospital. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
